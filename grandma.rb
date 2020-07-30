@@ -3,6 +3,7 @@ require "pry"
 
 def speak_to_grandma(phrase)
 binding.pry
+  if phrase == ""
 
 end
 # Whatever you say to grandma, she should respond with
